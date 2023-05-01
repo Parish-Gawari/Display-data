@@ -41,54 +41,5 @@ const getdata = async () => {
 }
 getdata()
 
-// Targeting the div with id and creating  a function for append
 
-// let cont = document.getElementById("container");
-// const append = (data) => {
-//     console.log(data)
-//     data.forEach((ele) => {
-//         let p = document.createElement("p");
-//         let hr = document.createElement("HR");
-//         let img =  document.createElement("img");
-
-
-//         img.src = ele.image;
-//         p.innerText = ele.name
-
-//         p.append(img)
-
-        
-//         cont.append(p, hr)
-
-//     })
-// }
-// fetch ("https://624094e02aeb48a9af754d5f.mockapi.io/ticket")
-// .then(function (res){
-//     console.log(res)
-//     return res.json();
-// })
-// .then(function (res){
-//     console.log(res)
-//     append(res)
-// })
-
-// let cont = document.getElementById("container");
-// const append = (data) => {
-//     console.log(data)
-//     data.forEach((ele) => {
-
-//         let p = document.createElement("p");
-        
-//         let img = document.createElement("img");
-       
-
-//         img.src = ele.image;
-//         p.innerText = ele.name;
-
-//         p.append(img)
-//         cont.append(p)
-
-//     })
-
-// }
 
